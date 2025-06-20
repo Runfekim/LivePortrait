@@ -6,7 +6,6 @@ RUN apt update && apt install -y bash
 WORKDIR /workspace/LivePortrait
 COPY action.py .
 COPY rp_handle.py .
-COPY worker_modify.py .
 
 WORKDIR /workspace
 COPY setup.sh .
